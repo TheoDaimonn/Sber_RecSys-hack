@@ -1,0 +1,5 @@
+*.parquet
+.venv
+.logs
+.checkpoints
+__pycache__
