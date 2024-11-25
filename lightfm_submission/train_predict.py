@@ -1,6 +1,7 @@
 import pandas as pd
 from datetime import datetime
 import numpy as np
+from scipy.stats import linregress
 smm_train_data = pd.read_parquet('train_smm.parquet')
 smm_test_data = pd.read_parquet('test_smm.parquet')
 zvuk_train_data = pd.read_parquet('train_zvuk.parquet')
